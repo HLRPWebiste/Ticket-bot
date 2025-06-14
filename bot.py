@@ -6,13 +6,13 @@ intents = discord.Intents.default()
 intents.members = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-TICKET_PANEL_CHANNEL_ID = 123456789012345678  # ID, wo das Panel gepostet wird
-CATEGORY_ID = 987654321098765432  # Kategorie-ID, wo Tickets erstellt werden
+TICKET_PANEL_CHANNEL_ID = 1382780571729526864  # ID, wo das Panel gepostet wird
+CATEGORY_ID = 1383527821758169128  # Kategorie-ID, wo Tickets erstellt werden
 
 # Rollen-IDs für den Zugriff (ersetze durch deine echten IDs)
-ROLE_TEAMLEITUNG = 111111111111111111
-ROLE_FRAKTION = 222222222222222222
-ROLE_SUPPORT = 333333333333333333
+ROLE_TEAMLEITUNG = 1383087980201119754
+ROLE_FRAKTION = 1383086757083353178
+ROLE_SUPPORT = 1383080677414535219
 
 @bot.event
 async def on_ready():
