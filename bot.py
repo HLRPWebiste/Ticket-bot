@@ -73,5 +73,5 @@ async def create_ticket(interaction: discord.Interaction, ticket_type: str, role
 
     await interaction.response.send_message(f"Ticket erstellt: {ticket_channel.mention}", ephemeral=True)
 
-token = os.getenv('DISCORD_TOKEN')
+token = os.getenv('MTM4MzQzMTIzMDc4MzIyOTk2Mw.GaNZmH.gJpPVpmS8z0F3cINRGFeYnn4NNjm49KUEBGg78')
 bot.run(token)
